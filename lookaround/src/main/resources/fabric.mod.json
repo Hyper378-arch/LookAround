@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lookaround",
+  "version": "${version}",
+  "name": "LOOKAROUND",
+  "description": "A lightweight detached free-camera mod for Minecraft.",
+  "authors": ["Hyper378"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "au.hyper378.lookaround.LookaroundClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "fabric-api": "*",
+    "java": ">=25"
+  }
+}
